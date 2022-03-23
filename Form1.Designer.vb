@@ -104,6 +104,7 @@ Partial Class register_frm
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(183, 50)
         Me.Button2.TabIndex = 0
+        Me.Button2.TabStop = False
         Me.Button2.Text = "Login"
         Me.Button2.UseVisualStyleBackColor = False
         '
@@ -136,7 +137,7 @@ Partial Class register_frm
         Me.TextBox1.Location = New System.Drawing.Point(61, 107)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(327, 40)
-        Me.TextBox1.TabIndex = 3
+        Me.TextBox1.TabIndex = 1
         '
         'TextBox2
         '
@@ -145,7 +146,7 @@ Partial Class register_frm
         Me.TextBox2.Location = New System.Drawing.Point(61, 203)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(327, 40)
-        Me.TextBox2.TabIndex = 4
+        Me.TextBox2.TabIndex = 2
         '
         'Button3
         '
@@ -155,7 +156,8 @@ Partial Class register_frm
         Me.Button3.Location = New System.Drawing.Point(135, 316)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(183, 50)
-        Me.Button3.TabIndex = 5
+        Me.Button3.TabIndex = 0
+        Me.Button3.TabStop = False
         Me.Button3.Text = "Create Account"
         Me.Button3.UseVisualStyleBackColor = False
         '
